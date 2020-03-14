@@ -1,0 +1,134 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  background: #f5f5f5;
+}
+
+.container {
+  display: block;
+  margin: auto;
+  width: 80%;
+}
+
+.text-head {
+  color: #002766;
+  margin-top: 2rem;
+  margin-left: 10rem;
+}
+
+.text-head2 {
+  color: #002766;
+  margin-left: 6rem;
+  margin-bottom: 4rem;
+}
+
+.surah-card {
+  background: #fff;
+  margin: 4rem 10rem;
+}
+
+.surah-card:hover {
+  transition: all 0.3s;
+}
+
+.surah-card:hover {
+  transform: scale(1.05);
+}
+
+.audio-card {
+  margin-left: 5rem;
+  margin-right: 5rem;
+}
+
+.audio-card:hover {
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.audio-card:hover {
+  transform: scale(1.05);
+}
+
+/* Surahs */
+
+.CurrentSurah {
+  color: black;
+  font-weight: 600;
+  background: #d6fcfd;
+}
+
+.surahBox {
+  display: block;
+  margin: auto;
+  width: 80%;
+}
+
+.surahFont {
+  display: flex;
+  align-items: center;
+  padding: 3rem 0;
+  justify-content: space-between;
+}
+
+.surahNum {
+  direction: rtl;
+}
+
+.surahBoxAyat {
+  background: grey;
+  font-size: 1.5rem;
+  width: 13%;
+}
+
+.SurahText {
+  display: inline-block;
+  font-size: 2rem;
+  width: 100%;
+}
+
+.surahTranslation {
+  display: flex;
+  width: 100%;
+  padding-right: 2rem;
+}
+
+.StartSurah {
+  display: block;
+  margin: auto;
+  text-align: center;
+  font-size: 3rem;
+  width: 50%;
+  margin-bottom: 3rem;
+  padding-bottom: 1.2rem;
+}
+
+hr.SurahLineBreak {
+  border: 1px solid darkgray;
+  border-radius: 5px;
+}
+
+hr.linebreak {
+  margin: 1.2rem 0;
+}
+
+.modalTitle {
+  padding: 0.6rem;
+  color: #000;
+  margin: 0;
+  font-size: 2rem;
+  text-align: center;
+}
+
+.icon-help {
+  font-size: 1.5rem;
+}
+
+.rewind {
+  font-size: 1rem;
+  font-weight: 600;
+  padding: 0;
+  margin: 0;
+}
